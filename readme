@@ -1,0 +1,33 @@
+---------------------------------------------House Price Prediction Project---------------------------------------------
+This Project Predict house price based features like average rooms dwelling, 
+poverty rate percentage, and pupil-teacher ratio. It hepls buyers, sellers and 
+investors make smarter real estate decisions by providing quick,
+data driven price estimate.
+
+features
+CRIM- Per capita crime rate by town
+ZN- propotion of residential land zoomed for lots over 25000 sq. ft
+INDUS - propotion of non-retail business acres per town
+chas: Charles Rivers dummy variable(1 if tract bounds river: 0 otherwise)
+NOX - Nitric oxides concentration(per parts per 10 million)
+RM - Average number of room per dwelling
+AGE propotion of owner-occupied units built to 1940
+DIS - weighted distances to five boston employment center
+RAD - index of accessibilty to radials highways
+TAX,
+PTRATIO,
+B,
+LSTAT,
+MEDV
+
+** Why poverty rate **
+Including poverty rates help the model make more accurate predictions by considering the local economy and affordability.
+
+Deployment with Gradio
+This project uses gradio to create an interactive web interface for house price  predictions. Gradio makes it super easy for to demo your model - just ru the app and get shareable link or local web page for users to input features and see preddicions instantly.
+
+How to Run Locally:
+Clone the repo
+Install the requirement library in the first code cell in the BH.ipynb.
+run the code by clicking on  run all.
+Open the link Gradio gives you in your browser to use prediction tool.
